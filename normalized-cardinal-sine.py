@@ -6,9 +6,9 @@ import mplcursors
 # Define n values for the plot
 n = np.linspace(-100, 100, 201)  # Adjust range and number of points
 
+
 # Calculate x1 values
 x1 = np.sinc(n / 10)  # Normalized Cardinal Sine
-
 
 # Configure the plot
 plt.title("Normalized Cardinal Sine Function")
