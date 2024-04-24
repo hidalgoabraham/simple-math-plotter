@@ -14,7 +14,7 @@ x1 = np.sinc(n / 10)  # Normalized Cardinal Sine
 plt.title("Normalized Cardinal Sine Function")
 plt.xlabel("n")
 plt.ylabel("sinc[n]")
-# var = plt.plot(n, x1, ".", label="sinc[n]")
+# axis = plt.plot(n, x1, ".", label="sinc[n]")
 plt.plot(n, x1, ".", label="sinc[n]")
 
 
@@ -24,7 +24,7 @@ plt.legend()
 # labels = []
 # for i in range(len(n)):
 #     labels.append(f"sinc[n]={str(round(x1[i], 3))}" + f"\nn={str(round(n[i], 3))}")
-# mplcursors.cursor(var, hover=True).connect("add", lambda sel: sel.annotation.set_text(labels[int(sel.index)]))
+# mplcursors.cursor(axis, hover=True).connect("add", lambda sel: sel.annotation.set_text(labels[int(sel.index)]))
 
 mplcursors.cursor(hover=True)
 

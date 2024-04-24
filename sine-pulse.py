@@ -21,7 +21,7 @@ plt.xlabel("n")
 # plt.ylabel("")
 # plt.plot(n, x1, "-", label="x1[n]")
 # plt.plot(n, x2, "-", label="x2[n]")
-plt.plot(n, x3, ".", label="x3[n]")
+axis = plt.plot(n, x3, ".", label="x3[n]")
 
 plt.grid(True)
 plt.legend()
