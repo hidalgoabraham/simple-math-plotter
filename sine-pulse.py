@@ -6,6 +6,7 @@ import math
 # Define n values for the plot
 n = np.linspace(-100, 100, 201)  # Adjust range and number of points
 
+
 # Calculate the x1 values
 x1 = 5 / (5 + math.e ** (0.001 * n**2))
 
